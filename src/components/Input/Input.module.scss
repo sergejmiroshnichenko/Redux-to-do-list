@@ -1,0 +1,25 @@
+.input {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+
+  &_field {
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .btn {
+    margin-left: 3px !important;
+    height: 55px;
+    cursor: pointer;
+  }
+}
+
+input:checked + span {
+  text-decoration: line-through;
+  font-weight: 600;
+  height: 3px;
+}
+
